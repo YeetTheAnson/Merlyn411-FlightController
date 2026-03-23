@@ -1,4 +1,4 @@
-26270902933610571
+26293968006692547
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -59626,6 +59626,34 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 10
 10
 ELRSFC
+BAT
+
+
+0
+2
+2
+ELRSFC
+BUZ-SMD_L9.6-W9.6-LS10.0-R
+
+
+0
+2
+2
+ELRSFC
+CAM
+
+
+0
+4
+4
+ELRSFC
+CAP
+
+
+0
+2
+2
+ELRSFC
 CAP-SMD_L3.2-W1.6-RD-C7171
 
 
@@ -59654,6 +59682,20 @@ CRYSTAL-SMD_4P-L3.2-W2.5-BL
 4
 4
 ELRSFC
+ESC
+
+
+0
+4
+4
+ELRSFC
+GPS
+
+
+0
+7
+7
+ELRSFC
 IND-SMD_L4.0-W4.0
 
 
@@ -59675,6 +59717,13 @@ LQFP-64_L10.0-W10.0-P0.50-LS12.0-BL
 64
 64
 ELRSFC
+MountingHole
+
+
+0
+0
+0
+ELRSFC
 PDFN-8_L3.3-W3.3-P0.65-BL
 
 
@@ -59682,12 +59731,19 @@ PDFN-8_L3.3-W3.3-P0.65-BL
 9
 9
 ELRSFC
+PWR
+
+
+0
+3
+3
+ELRSFC
 QFN-24_L3.0-W3.0-P0.40-BL-EP
 
 
 0
-25
-25
+24
+24
 ELRSFC
 QFN-24_L4.0-W4.0-P0.50-TL-EP2.6
 
@@ -59703,7 +59759,21 @@ QFN-32_L5.0-W5.0-P0.50-TL-EP3.7
 33
 33
 ELRSFC
+RX
+
+
+0
+4
+4
+ELRSFC
 SMA_L4.3-W2.6-LS5.2-RD
+
+
+0
+2
+2
+ELRSFC
+SOD-123_L2.7-W1.6-LS3.7-RD-1
 
 
 0
@@ -59731,6 +59801,13 @@ SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR
 3
 3
 ELRSFC
+SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL
+
+
+0
+6
+6
+ELRSFC
 SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR
 
 
@@ -59751,6 +59828,13 @@ SW-SMD_L3.9-W3.0-P4.45
 0
 2
 2
+ELRSFC
+SWD
+
+
+0
+3
+3
 ELRSFC
 TSSOP-20_L6.5-W4.4-P0.65-LS6.4-BL
 
@@ -59779,6 +59863,13 @@ USB-C-SMD_TYPE-C-6PIN-2MD-073
 0
 18
 14
+ELRSFC
+VTX
+
+
+0
+4
+4
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
