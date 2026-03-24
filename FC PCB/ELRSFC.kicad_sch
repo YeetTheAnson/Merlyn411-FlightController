@@ -16552,7 +16552,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
+		(property "Footprint" "ELRSFC:UFL"
 			(at 149.86 243.84 0)
 			(effects
 				(font
