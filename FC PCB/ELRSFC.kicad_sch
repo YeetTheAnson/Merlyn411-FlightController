@@ -1231,6 +1231,219 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "ELRSFC:7D027000Q01"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "X"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "7D027000Q01"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lcsc:CRYSTAL-SMD_4P-L2.0-W1.6-BL"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/SMD-Crystal-Resonators_HD-7D027000Q01_C648952.html"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C648952"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "7D027000Q01_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -2.54 -2.54) (xy -2.54 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -3.81 -3.81)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.78) (xy -1.27 1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.51 1.78)
+					(end 0.51 -1.78)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.78) (xy 1.27 1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 2.54 2.54) (xy 2.54 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "ELRSFC:AMS1117-3.3"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4424,257 +4637,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "ELRSFC:S3227000181040"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "X"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "S3227000181040"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "lcsc:CRYSTAL-SMD_4P-L3.2-W2.5-BL"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/New-Arrivals_JGHC-S3227000181040_C390777.html"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C390777"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "S3227000181040_0_1"
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -2.54) (xy -2.54 -2.54) (xy -2.54 0) (xy -1.52 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.02) (xy -1.27 1.02)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.78) (xy -1.27 1.78)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.76 -1.78) (xy -0.76 1.78) (xy 0.76 1.78) (xy 0.76 -1.78)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.76 1.78) (xy 0.76 -1.78) (xy -0.76 -1.78) (xy -0.76 1.78) (xy 0.76 1.78)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.76 -1.78) (xy -0.76 -1.78)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.02) (xy 1.27 1.02)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.78) (xy 1.27 1.78)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 2.54 2.54) (xy 2.54 0) (xy 1.52 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "OSC1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "OSC2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9397,12 +9359,6 @@
 		(uuid "2b808a43-1d61-4dc9-ab90-6c7e5a5d7bdf")
 	)
 	(junction
-		(at 93.98 212.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "31e50506-d605-4a14-8c1e-6597e5af34ff")
-	)
-	(junction
 		(at 24.13 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9589,12 +9545,6 @@
 		(uuid "707dcd1d-f919-4969-a554-3efed0b2ac06")
 	)
 	(junction
-		(at 93.98 204.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "73ab3453-8f07-482d-9728-4a1c3914c3f9")
-	)
-	(junction
 		(at 54.61 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9629,12 +9579,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "790efa15-f547-4d97-97fb-14068810d32c")
-	)
-	(junction
-		(at 87.63 204.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7e4a9f85-0645-4d64-bb0f-8a51ad79821a")
 	)
 	(junction
 		(at 270.51 147.32)
@@ -9755,12 +9699,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf7ae015-7940-4bdb-a9a8-df19f613ffb9")
-	)
-	(junction
-		(at 97.79 212.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c1b2b5b5-4d65-49f2-83d5-c09b3fee6225")
 	)
 	(junction
 		(at 50.8 266.7)
@@ -10169,16 +10107,6 @@
 			(type default)
 		)
 		(uuid "04377b9d-df29-4791-bf64-be818dab4233")
-	)
-	(wire
-		(pts
-			(xy 87.63 212.09) (xy 93.98 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "076513c0-106b-4d15-8b90-3241c2c87bb1")
 	)
 	(wire
 		(pts
@@ -11432,16 +11360,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 204.47) (xy 93.98 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80f010d6-abf5-4c09-bc86-12982421e440")
-	)
-	(wire
-		(pts
 			(xy 158.75 119.38) (xy 166.37 119.38)
 		)
 		(stroke
@@ -11469,16 +11387,6 @@
 			(type default)
 		)
 		(uuid "85e8c1b0-9b28-45f3-bae5-84194282e9bf")
-	)
-	(wire
-		(pts
-			(xy 93.98 212.09) (xy 97.79 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87590f02-ed17-41e3-bb4d-696e4cf4a89f")
 	)
 	(wire
 		(pts
@@ -21284,7 +21192,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 87.63 204.47 0)
+		(at 93.98 204.47 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21292,7 +21200,7 @@
 		(dnp no)
 		(uuid "66783a7f-b8ba-41e3-bcf1-9cfec07977b3")
 		(property "Reference" "#PWR031"
-			(at 87.63 208.28 0)
+			(at 93.98 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21301,7 +21209,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 87.376 200.914 0)
+			(at 94.234 208.026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21310,7 +21218,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 204.47 0)
+			(at 93.98 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21319,7 +21227,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 204.47 0)
+			(at 93.98 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21328,7 +21236,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 87.63 204.47 0)
+			(at 93.98 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21819,88 +21727,6 @@
 			(project "ELRSFC"
 				(path "/42d441ea-c807-4e8f-bb94-f3987632e9a7"
 					(reference "#PWR052")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ELRSFC:S3227000181040")
-		(at 107.95 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "73e8138f-f94d-47eb-8c77-f1476bb7ea4d")
-		(property "Reference" "X2"
-			(at 107.696 125.984 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "27MHz"
-			(at 107.696 138.176 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ELRSFC:CRYSTAL-SMD_4P-L3.2-W2.5-BL"
-			(at 107.95 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/New-Arrivals_JGHC-S3227000181040_C390777.html"
-			(at 107.95 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 107.95 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C390777"
-			(at 107.95 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "436178a0-2aad-4ee9-b02e-26dbb98f3c52")
-		)
-		(pin "1"
-			(uuid "f21d477a-0329-440a-84d6-6d586e650814")
-		)
-		(pin "4"
-			(uuid "e82886aa-b02e-4520-b54c-c1ec135fb146")
-		)
-		(pin "2"
-			(uuid "6e0bee7f-eed6-4f0e-8cfd-3f178c48daad")
-		)
-		(instances
-			(project ""
-				(path "/42d441ea-c807-4e8f-bb94-f3987632e9a7"
-					(reference "X2")
 					(unit 1)
 				)
 			)
@@ -22810,6 +22636,88 @@
 			(project "ELRSFC"
 				(path "/42d441ea-c807-4e8f-bb94-f3987632e9a7"
 					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ELRSFC:7D027000Q01")
+		(at 107.95 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "864eb6cf-913d-4006-94eb-b3ae25ff5f08")
+		(property "Reference" "X2"
+			(at 107.95 125.476 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "27MHz"
+			(at 107.95 138.938 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ELRSFC:CRYSTAL-SMD_4P-L2.0-W1.6-BL"
+			(at 107.95 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/SMD-Crystal-Resonators_HD-7D027000Q01_C648952.html"
+			(at 107.95 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C648952"
+			(at 107.95 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95f10674-ee97-4ea5-ba45-76160d4485a2")
+		)
+		(pin "2"
+			(uuid "b37a3165-041a-407d-94f4-d5123712686f")
+		)
+		(pin "4"
+			(uuid "d2c1e432-4449-4a26-946c-c90d3169dabb")
+		)
+		(pin "3"
+			(uuid "a78e0ff4-c214-4050-922d-916ea600ef67")
+		)
+		(instances
+			(project ""
+				(path "/42d441ea-c807-4e8f-bb94-f3987632e9a7"
+					(reference "X2")
 					(unit 1)
 				)
 			)
@@ -26810,76 +26718,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 93.98 208.28 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d4b7217b-3db8-4977-9767-868ebded9a6b")
-		(property "Reference" "C19"
-			(at 93.726 206.248 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 93.472 211.328 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 93.0148 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 93.98 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 93.98 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7b46c520-ae9f-41be-898c-40b5a611078a")
-		)
-		(pin "1"
-			(uuid "8daa0c52-4c4e-4bc2-833c-1caf6011cf2a")
-		)
-		(instances
-			(project "ELRSFC"
-				(path "/42d441ea-c807-4e8f-bb94-f3987632e9a7"
-					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 321.31 214.63 90)
 		(mirror x)
@@ -28400,76 +28238,6 @@
 			(project ""
 				(path "/42d441ea-c807-4e8f-bb94-f3987632e9a7"
 					(reference "FL1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 87.63 208.28 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e64f5537-0c40-4233-97e6-daeb42b9d972")
-		(property "Reference" "C18"
-			(at 87.376 206.248 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 87.122 211.328 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 86.6648 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 87.63 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 87.63 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "beba8d08-d88d-42e9-94cb-705a6671909a")
-		)
-		(pin "1"
-			(uuid "5180cc21-e587-43f3-aaca-874e3ba3a876")
-		)
-		(instances
-			(project "ELRSFC"
-				(path "/42d441ea-c807-4e8f-bb94-f3987632e9a7"
-					(reference "C18")
 					(unit 1)
 				)
 			)
