@@ -57,7 +57,7 @@
 	)
 	(attr smd)
 	(fp_text user "5"
-		(at -3.6 -1.6 270)
+		(at -3.6 0.8 270)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "0474cfa1-c3f8-4dd1-ade6-24f24244294f")
@@ -71,7 +71,7 @@
 		)
 	)
 	(fp_text user "D"
-		(at -6.8 -1.6 270)
+		(at -6.8 0.8 270)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "40c399b1-65e8-4cb1-8adb-c5b750009f21")
@@ -85,7 +85,7 @@
 		)
 	)
 	(fp_text user "G"
-		(at -0.4 -1.6 270)
+		(at -0.4 0.8 270)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "40c7e06f-47da-4e9e-a998-39d0231dc930")
@@ -99,7 +99,7 @@
 		)
 	)
 	(fp_text user "R"
-		(at 2.8 -1.6 270)
+		(at 1.2 0.9 270)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "4639d105-35c6-4a45-bb34-3782d8cba857")
@@ -112,7 +112,7 @@
 		)
 	)
 	(fp_text user "3"
-		(at -2 -1.6 270)
+		(at -2 0.8 270)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "4d07bf53-4071-4e60-988c-173f18185bd0")
@@ -126,7 +126,7 @@
 		)
 	)
 	(fp_text user "GPS"
-		(at 3.9 -1.4 270)
+		(at 3.9 -0.9 270)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "6b994a7d-c169-4a1f-97fc-b8f2726240d9")
@@ -140,7 +140,7 @@
 		)
 	)
 	(fp_text user "T"
-		(at 1.2 -1.5 270)
+		(at 2.8 0.8 270)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "b46d162d-772c-4685-b208-006c21852778")
@@ -154,7 +154,7 @@
 		)
 	)
 	(fp_text user "C"
-		(at -5.2 -1.6 270)
+		(at -5.2 0.8 270)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "de930223-24e6-4b6f-8ba6-cca381ec3802")
@@ -203,14 +203,14 @@
 		(uuid "6e43d1e8-da01-43a9-bd8c-4d616374ed7e")
 	)
 	(pad "6" smd roundrect
-		(at 1.6 0)
+		(at 3.2 0)
 		(size 1.1 1.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2272727273)
 		(uuid "dbdb2782-70eb-456a-bedd-f1408d68ef92")
 	)
 	(pad "7" smd roundrect
-		(at 3.2 0)
+		(at 1.6 0)
 		(size 1.1 1.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2272727273)

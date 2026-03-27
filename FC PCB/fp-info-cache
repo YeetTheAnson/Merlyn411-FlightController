@@ -1,4 +1,4 @@
-25666791885206164
+25673891840362333
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -59213,6 +59213,20 @@ CRYSTAL-SMD_4P-L3.2-W2.5-BL
 4
 4
 ELRSFC
+DEBUG_RX
+
+
+0
+1
+1
+ELRSFC
+DEBUG_TX
+
+
+0
+1
+1
+ELRSFC
 ENA
 
 
@@ -59353,6 +59367,13 @@ SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR
 3
 3
 ELRSFC
+SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BL
+
+
+0
+5
+5
+ELRSFC
 SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL
 
 
@@ -59385,8 +59406,8 @@ SWD
 
 
 0
-3
-3
+4
+4
 ELRSFC
 SW_TS-1187A-B-A-B
 
@@ -59429,6 +59450,13 @@ USB-C-SMD_TYPE-C-6PIN-2MD-073
 0
 18
 14
+ELRSFC
+Untitled
+
+
+0
+0
+0
 ELRSFC
 VTX
 
