@@ -1,4 +1,4 @@
-25673891840362333
+25677441886929955
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -59241,6 +59241,13 @@ ESC
 4
 4
 ELRSFC
+EXTRA
+
+
+0
+1
+1
+ELRSFC
 FIL_2450FM07D0034T
 
 
@@ -59331,6 +59338,13 @@ RX
 0
 4
 4
+ELRSFC
+SENSE
+
+
+0
+1
+1
 ELRSFC
 SMA_L4.3-W2.6-LS5.2-RD
 

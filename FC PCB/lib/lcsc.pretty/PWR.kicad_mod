@@ -57,7 +57,7 @@
 	)
 	(attr smd)
 	(fp_text user "5"
-		(at -3.6 -1.6 270)
+		(at -3.6 0.8 270)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "0474cfa1-c3f8-4dd1-ade6-24f24244294f")
@@ -71,7 +71,7 @@
 		)
 	)
 	(fp_text user "G"
-		(at -0.4 -1.6 270)
+		(at -0.4 0.8 270)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "40c7e06f-47da-4e9e-a998-39d0231dc930")
@@ -85,7 +85,7 @@
 		)
 	)
 	(fp_text user "3"
-		(at -2 -1.6 270)
+		(at -2 0.8 270)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "4d07bf53-4071-4e60-988c-173f18185bd0")
@@ -99,7 +99,7 @@
 		)
 	)
 	(fp_text user "PWR"
-		(at 0.7 -1.45 270)
+		(at 0.7 -0.85 270)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "6b994a7d-c169-4a1f-97fc-b8f2726240d9")
