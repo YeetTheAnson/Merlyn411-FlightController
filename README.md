@@ -193,3 +193,34 @@ The JHEMCU 600mW VTX mounts to the rear of the frame.
 2.  **Propellers:** Mount the Gemfan 3016 propeller. Pay attention to motor rotation directions (depending on your betaflight configuration, it could either be prop in or prop out). Fasten each prop with 2x M2 6mm screws.
 3.  **Camera:** Mount the analog FPV camera to the front using 2x M2 6mm screws.
 4.  **Closing the Frame:** Use the 6x M3 20mm standoffs and 12x M3 6mm screws to secure the top plate to the bottom plate
+
+## Bill of Material
+Note: The prices in USD are converted as of 31 March 2026 and prices may fluctuate. The requested funding is $200 as a buffer for the unstable prices. Any unused funds is returned.
+
+| Item Name | Link | Vendor | Quantity | Total Price (USD) |
+|----------|------|--------|----------|-------------------|
+| 2450FM07D0034 | [Link](https://www.aliexpress.com/item/1005007939000699.html) | AliExpress | 1 | 6.40 |
+| AliExpress Shipping |  | AliExpress | 1 | 3.15 |
+| PCB |  | JLCPCB | 1 | 2.00 |
+| PCB Assembly |  | JLCPCB | 1 | 79.49 |
+| JLCPCB Shipping |  | JLCPCB | 1 | 6.02 |
+| Sparkhobby 1303.5 5500KV motor | [Link](https://click.world.taobao.com/_b.QbWPiG) | Taobao | 4 | 22.50 |
+| JHEMCU EM40A ESC | [Link](https://click.world.taobao.com/_b.ubW0U5) | Taobao | 1 | 18.11 |
+| 19mm FPV Camera | [Link](https://click.world.taobao.com/_b.LbWPiH) | Taobao | 1 | 5.16 |
+| JHEMCU 600mW VTX | [Link](https://click.world.taobao.com/_b.vbWPq7) | Taobao | 1 | 14.58 |
+| M10 GPS & Magnetometer | [Link](https://click.world.taobao.com/_b.TbWPjE) | Taobao | 1 | 7.55 |
+| Rubber Grommet Shock Mount | [Link](https://click.world.taobao.com/_b.XbWPTq) | Taobao | 12 | 0.80 |
+| Gemfan 3016 | [Link](https://click.world.taobao.com/_b.4bW0jv) | Taobao | 1 | 1.75 |
+| ELRS Dipole Antenna | [Link](https://click.world.taobao.com/_b.obW0UN) | Taobao | 1 | 0.90 |
+| Taobao Tax |  | Taobao | 1 | 8.35 |
+| Taobao Shipping |  | Taobao | 1 | 2.48 |
+| 10k Resistor | [Link](https://shopee.com.my/100PCS-0603-1-SMD-Resistor-1.1K-~-100K-2K-10K-15K-20K-30K-51K-62K-75K-100K-Patch-resistance-i.1135937572.18786797162) | Shopee | 1 | 0.45 |
+| 100nF Capacior | [Link](https://shopee.com.my/100PCS-0603-SMD-Chip-Multilayer-Ceramic-Capacitor-330PF-22uF-1nF-10nF-15nF-100nF-0.1uF-1uF-2.2uF-4.7uF-10uF-i.1135937572.21395687476) | Shopee | 1 | 0.45 |
+| 22uF Tantalum | [Link](https://shopee.com.my/10PCS-A-Type-Tantalum-Capacitor-100uf-150uf-220uf-330uf-470uf-680uf-6V-6.3V-10V-16V-25V-35V-50V-4.7-6.8-10-15-22-33-47uf-i.1135937572.21795687477) | Shopee | 1 | 0.88 |
+| USBCL6-2SC6 | [Link](https://shopee.com.my/50Pcs-5pcs-USBLC-USBLC6-2SC6-SOT-23-6-USBLC6-SOT-UL26-SOT23-Low-Capacitor-Capacitance-2-wire-ESD-Static-Protection-Chip-IC-i.1649836180.41923888381) | Shopee | 1 | 0.83 |
+| 2N7002LT | [Link](https://shopee.com.my/2N7002LT-2N7002-7002-N-Channel-MOSFET-N-CH-SOT23-SMD-IC-MOS-FET-Field-Effect-Tube-SOT-23-i.1649836180.44952514481) | Shopee | 1 | 0.79 |
+| 9650 Active Buzzer | [Link](https://shopee.com.my/SMD-Buzzer-9018-9025-9045-1109-9650-3V-5V-Magnetic-Mini-Active-Passive-Piezo-Buzzers-Loudspeaker-Loud-Beep-Alarm-For-Arduino-i.1649836180.46152504777) | Shopee | 1 | 1.05 |
+| SPX3819 | [Link](https://shopee.com.my/10pcs-5pcs-SPX3819-SPX3819M5-L-3-3-TR-SOT-23-5-SPX3819M5-3.3-SPX3819M5-3-3-TR-SOT23-3.3V-500mA-Regulator-LDO-IC-New-Original-i.1649836180.50452276303) | Shopee | 1 | 1.45 |
+| 8040 68uH Inductor | [Link](https://shopee.com.my/10pcs-4030-SWPA4030S-4020-5040-6045-8040-SMD-Power-Inductor-2.2uH-3.3uH-4.7uH-6.8uH-10uH-15uH-22uH-33uH-47uH-56uH-Wire-Wound-i.1649836180.55202484435) | Shopee | 1 | 1.51 |
+| SPX Express Shipping |  | Shopee | 2 | 2.56 |
+| **GRAND TOTAL** |  |  |  | **189.21** |
