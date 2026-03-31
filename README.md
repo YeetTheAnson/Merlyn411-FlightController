@@ -135,3 +135,61 @@ using an external FTDI as it will intefere with the UART lines. You can disable 
 
 -----
 
+## Drone Assembly
+
+While this project is mainly focused on the Merlyn411 flight controller, I designed it along with a high efficiency 3 inch cruiser drone in mind. If you want to recreate the full build, below is the component breakdown and assembly steps
+
+![droneRender](assets/droneRender1.png)
+
+### Component List
+- **Flight Controller:** Merlyn411
+- **ESC:** JHEMCU EM40A
+- **Motors:** Sparkhobby 1303.5 5500KV
+- **Propellers:** Gemfan 3016 Tri-Blade
+- **VTX:** JHEMCU 600mW VTX
+- **Camera:** Analog FPV micro(19mm) camera
+- **Frame:** Custom frame
+- **Battery:** 2S-4S LiPo or 2S/3S 18650 Li Ion packs
+
+![Wiring Diagram](assets/wiringDiagram.png)
+
+### Why 3D Printing the Frame is Not Recommended
+Currently, I am using a custom frame that I 3D printed for prototyping. I strongly advise against using a 3D printed frame for your final build. The Merlyn411 uses the MPU6500 IMU, which is sensitive to mechanical noise and vibrations. 3D printed frames will flex and resonate significantly more than carbon fiber frames. This flexing will send noise into the gyro and resulting in terrible flight performance. Also the 3D printed frame will likely not survive a moderate impact.
+
+### Fasteners
+Because this is a custom stack with a 25.5mm FC and a 20mm ESC, the stack up is very specific. You will need:
+* 6x M3 20mm Female to Female Brass Standoffs (Frame separation)
+* 12x M3 6mm Screws (Frame to standoffs)
+* 4x M2 Nuts (Stack base)
+* 4x M2 16mm Screws (Main stack skewers)
+* 8x M2 10mm Screws (Top stack/VTX skewers)
+* 16x M2 6mm Screws (Motors)
+* 4x M2 6mm Screws (Camera/Props)
+
+### FC Stack
+The Merlyn411 uses a 25.5x25.5mm mounting pattern (which is meant for AIO boards). However, I needed a standalone ESC which comes in standard sizes like 20x20mm.
+
+To make these fit together, you must use a 3D printed adapter plate in [/production/3dPrint/boardAdapter.stl](https://github.com/YeetTheAnson/Merlyn411-FlightController/blob/main/production/3dPrint/boardAdapter.stl). 
+
+**Stack Assembly Layer 1:**
+1.  Place 4x M2 Nuts into the designated recesses in the bottom frame plate.
+2. Push rubber grommets into the flight controller
+3. Push 4x M2 16mm screws through the adapter plate, through the rubber grommet, and through the bottom plate into the M2 nuts
+![layer1](assets/layer1stackup.png)
+
+**Stack Assembly Layer 2:**
+1. Push rubber grommets into the ESC
+2. Push 4x M2 10mm screws through rubber grommets and through the adapter plate until it reaches another set of M2 nuts
+![layer2](assets/layer2stackup.png)
+
+### Mounting the VTX
+The JHEMCU 600mW VTX mounts to the rear of the frame.
+1.  Place 4x M2 Nuts into the bottom frame plate at in the rear
+2. Push rubber grommets into the VTX
+3.  Thread 4x M2 10mm screws through rubber grommets, down through the bottom plate, and into the nuts
+
+### Final Assembly
+1.  **Motors:** Mount the four 1303.5 5500KV motors to the arms using 16x M2 6mm screws (4 per motor). Ensure the screws do not touch the motor windings inside the bell.
+2.  **Propellers:** Mount the Gemfan 3016 propeller. Pay attention to motor rotation directions (depending on your betaflight configuration, it could either be prop in or prop out). Fasten each prop with 2x M2 6mm screws.
+3.  **Camera:** Mount the analog FPV camera to the front using 2x M2 6mm screws.
+4.  **Closing the Frame:** Use the 6x M3 20mm standoffs and 12x M3 6mm screws to secure the top plate to the bottom plate
