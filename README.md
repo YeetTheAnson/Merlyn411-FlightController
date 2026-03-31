@@ -26,6 +26,7 @@ While the primary focus of this projet is the flight controller hardware and fir
   - **Mounting:** 25.5mm x 25.5mm square mounting pattern with M3 holes
   - **Peripherals** Includes pads for using external receivers, GPS, Magnetometer, analog camera and VTX
 
+Note: The IMU should be in the forward facing direction if the USB C connector is facing forward and to the right. Adjust the mounting orientation accordingly in betaflight
 
 -----
 
