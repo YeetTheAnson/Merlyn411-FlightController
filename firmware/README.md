@@ -1,0 +1,1 @@
+Read main README to learn how to compile the custom betaflight target!
