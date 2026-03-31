@@ -77,7 +77,7 @@ While the primary focus of this projet is the flight controller hardware and fir
 
 ## Flight Controller Firmware (Betaflight)
 
-Because this is a custom hardware layout, I believe that there is no standard targets that has the exact pin mapping as my flight controller. You must compile the firmware with the custom target definition in [/firmware/MERLYN411](https://github.com/YeetTheAnson/Merlyn411-FlightController/firmware/MERLYN411) or use the pre compiled firmware in [/firmware/COMPILED](https://github.com/YeetTheAnson/Merlyn411-FlightController/firmware/COMPILED).
+Because this is a custom hardware layout, I believe that there is no standard targets that has the exact pin mapping as my flight controller. You must compile the firmware with the custom target definition in [/firmware/MERLYN411](https://github.com/YeetTheAnson/Merlyn411-FlightController/tree/main/firmware/MERLYN411) or use the pre compiled firmware in [/firmware/COMPILED](https://github.com/YeetTheAnson/Merlyn411-FlightController/tree/main/firmware/COMPILED).
 
 > [!TIP]
 > You can use flash another target to the flight controller and use betaflight CLI to remap the pin resource, however this is not recommended if the chosen target wasn't compiled with a feature that this flight controller supports.
@@ -86,7 +86,7 @@ Because this is a custom hardware layout, I believe that there is no standard ta
 
 1. Clone the [betaflight repository](https://github.com/betaflight/betaflight) using any UNIX terminal (use MYSYS2 MINGW64 on windows) and enter the directory
 2. Enter `make configs` (install any required GCC toolchain if required)
-3. Create a directory in betaflight/src/config/configs named `MERLYNf411` and paste [config.h](https://github.com/YeetTheAnson/Merlyn411-FlightController/firmware/MERLYN411/config.h) in the new directory
+3. Create a directory in betaflight/src/config/configs named `MERLYNf411` and paste [config.h](https://github.com/YeetTheAnson/Merlyn411-FlightController/tree/main/firmware/MERLYN411/config.h) in the new directory
 4. Enter `make MERLYN411` and the `.hex` file should appear in `betaflight/obj`
 
 ### Flashing the Flight Controller
@@ -98,7 +98,7 @@ Because this is a custom hardware layout, I believe that there is no standard ta
 
 ## ExpressLRS Flashing
 
-The internal ESP8285 and SX1281 receiver is wired to the STM32 via a hardware UART. It uses the standard **BETAFPV 2.4GHz Lite RX** firmware target. You can obtain the firmware binaries from the ELRS [site](https://expresslrs.github.io/web-flasher/) or from this repository in [/firmware/COMPILED](https://github.com/YeetTheAnson/Merlyn411-FlightController/COMPILED). There's two way to flash the receiver.
+The internal ESP8285 and SX1281 receiver is wired to the STM32 via a hardware UART. It uses the standard **BETAFPV 2.4GHz Lite RX** firmware target. You can obtain the firmware binaries from the ELRS [site](https://expresslrs.github.io/web-flasher/) or from this repository in [/firmware/COMPILED](https://github.com/YeetTheAnson/Merlyn411-FlightController/tree/main/firmware/COMPILED). There's two way to flash the receiver.
 
 ### Method 1: Betaflight Passthrough
 
