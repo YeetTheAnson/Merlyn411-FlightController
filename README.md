@@ -2,6 +2,7 @@
 
 ## Introduction
 
+![render](assets/pcbRender1.png)
 This is my custom AIO (No ESC) flight controller! I started this project because commercial flight controllers get very expensive very quickly as you demand for more features like integrated radio receivers. I took on the challenge of designing my own betaflight compatible flight controller and it was difficult especially since the board has only 2 layers to save as much cost as possible and it's also my first time working with RF in circuits.
 
 This flight controller is designed for a wide range of drones from 2" to as big as you want it to, and supports battery voltage from 2s to 8s although it is recommended to use a maximum of 6s. The 25.5mm pattern should be compatible with almost all frames on the market
@@ -10,6 +11,8 @@ Merlyn411 features many quality of life features like an integrated ExpressLRS (
 
 While the primary focus of this projet is the flight controller hardware and firmware, I have also included a guide for the full 3 inch long range / freestyle drone build that this board was designed for
 
+![schematic](assets/schematic.jpg)
+![layout](assets/layout.png)
 -----
 
 ## Hardware Specifications
@@ -28,6 +31,9 @@ While the primary focus of this projet is the flight controller hardware and fir
 
 ## Pinout
 ### External Headers
+
+![topHeaders](assets/topHeader.png)
+![bottomHeaders](assets/bottomHeader.png)
 
 | Header | Pin Name | STM32 Pin | Description |
 | :--- | :--- | :--- | :--- |
@@ -124,7 +130,7 @@ The UART pads on the board are named relative to the STM32's perspective. Becaus
 
 **Disable the STM32**
 You must disable the STM32 when flashing via the T and R pad
-When using an external FTDI as it will intefere with the UART lines. You can disable the STM32 by shorting the SWD `R` pad to ground. Remember to short the `ENA` pads on the bottom side to put the ESP8285 into flashing mode.
+using an external FTDI as it will intefere with the UART lines. You can disable the STM32 by shorting the SWD `R` pad to ground. Remember to short the `ENA` pads on the bottom side to put the ESP8285 into flashing mode.
 
 -----
 
