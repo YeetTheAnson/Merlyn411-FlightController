@@ -1,4 +1,4 @@
-# MerylnF411 Flight Controller
+# Meryln411 Flight Controller
 
 ## Introduction
 
