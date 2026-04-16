@@ -86,6 +86,8 @@
 #define UART2_TX_PIN         PA2
 #define UART2_RX_PIN         PA3
 
+#define USE_SOFTSERIAL
+#define USE_SOFTSERIAL1
 #define SOFTSERIAL1_TX_PIN   PA15
 
 #define I2C1_SCL_PIN         PB8
