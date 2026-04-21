@@ -75,6 +75,7 @@
 #define ADC_VBAT_PIN         PB0
 #define ADC_CURR_PIN         PB1
 #define BEEPER_PIN           PB2
+#define BEEPER_INVERTED
 
 #define MOTOR1_PIN           PB4
 #define MOTOR2_PIN           PB5
