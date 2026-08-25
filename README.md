@@ -1,5 +1,8 @@
 # Merlyn411 Flight Controller
 
+> [!TIP]
+> The Merlyn411 is outdated! Check out the [Merlyn435](https://github.com/YeetTheAnson/Merlyn435-Flight-Stack/) for a more powerful and modern flight controller + ESC.
+
 ## Introduction
 
 ![render](assets/pcbRender1.png)
